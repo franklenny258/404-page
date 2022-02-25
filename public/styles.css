@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Space+Mono:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #fdf7f7;
+}
+
+body {
+    width: calc(100% - 10px);
+    height: 100%;
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin: auto;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: -0.08em;
+    position: absolute;
+    top: 40px;
+    left: 77px;
+}
+
+.heading-text {
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 700px;
+    top: 200px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+.p-text {
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 700px;
+    top: 410px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+.page-image-wrapper {
+    position: absolute;
+    left: 80px;
+    right: 57.21%;
+    top: 220px;
+    bottom: 34.03%;
+}
+
+.page-image {
+    width: 450px;
+}
+
+.back-btn {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 700px;
+    top: 580px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #333333;
+} 
+
+.footer-text {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #BDBDBD;
+    text-align: center;
+}
+
+
+/* Middle screen version */
+@media (max-width: 1290px) {
+    .heading-text {
+        position: absolute;
+        width: 400px;
+        height: 150px;
+        left: 500px;
+        top: 150px;
+
+        font-size: 50px;
+    }
+
+    .p-text {
+        position: absolute;
+        width: 381px;
+        height: 108px;
+        left: 500px;
+        top: 360px;
+    }
+
+    .back-btn {
+        position: absolute;
+        width: 216px;
+        height: 55px;
+        left: 500px;
+        top: 525px;
+    }
+
+    .page-image {
+        width: 400px;
+    }
+
+    .page-image-wrapper {
+        position: absolute;
+        left: 60px;
+        right: 57.21%;
+        top: 220px;
+        bottom: 34.03%;
+    }
+}
+
+
+/* Mobile version */
+@media (max-width: 900px) {
+    .title {
+        font-size: 15px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+    .heading-text {
+        position: absolute;
+        width: 300px;
+        height: 150px;
+        left: 0px;
+        top: 480px;
+
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .p-text {
+        position: absolute;
+        width: 300px;
+        height: 108px;
+        left: 0px;
+        top: 580px;
+
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .page-image {
+        width: 300px;
+    }
+
+    .page-image-wrapper {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 500px;
+        bottom: 0px;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+
+    .text-wrapper {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 100px;
+        bottom: 0px;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+    
+    .back-btn {
+        position: absolute;
+        width: 200px;
+        height: 45px;
+        left: 0px;
+        top: 750px;
+
+        font-size: 14px;
+        line-height: 21px;
+     }
+}
+
